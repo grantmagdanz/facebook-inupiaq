@@ -1,4 +1,3 @@
-
 var translations = {
     "likes": "aime",
     "shared": "partagé",
@@ -7,6 +6,7 @@ var translations = {
     "shared a": "partagé une"
 }
 
+// This code is mostly pulled from https://9to5google.com/2015/06/14/how-to-make-a-chrome-extensions/
 function translate() {
     var elements = document.getElementsByTagName('*');
 
