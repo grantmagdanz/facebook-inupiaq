@@ -1,0 +1,18 @@
+{
+"manifest_version": 1,
+    "name": "Facebook in Iñupiaq",
+    "description": "Translates Facebook's interface into Iñupiaq.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.facebook.com/*"
+            ],
+            "js": [
+                "content.user.js"
+                
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
